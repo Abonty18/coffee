@@ -1,0 +1,108 @@
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+.singlePostImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Kreon', serif;
+    font-size: 28px;
+
+
+
+}
+
+.singlePostTitleInput {
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .singlePostTitleInput:focus {
+    outline: none;
+  }
+
+.singlePostEdit{
+    float: right;
+    font-size: 22px;
+
+}
+
+.singlePostIcon{
+    margin-left:10px;
+    cursor:pointer;
+}
+.singlePostIcon:first-child{
+    color: rgb(11, 103, 179);
+}
+.singlePostIcon:last-child{
+    color: rgb(167, 61, 19);
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Voltaire', sans-serif;
+    color: rgb(184, 112, 18);
+}
+
+.singlePostDesc{
+    color: rgb(78, 78, 78);
+    font-size: 20px;
+    line-height: 29px;
+
+
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* .singlePostImg{
+    width: 10%;
+} */
+
+.singlePostDescInput {
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .singlePostDescInput:focus {
+    outline: none;
+  }
+  .singlePostButton {
+    width: 100px;
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+  }

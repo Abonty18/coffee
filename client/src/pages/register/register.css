@@ -1,0 +1,70 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.13),
+    rgba(255, 255, 255, 0.13)),
+         url('/images/reg.svg') ;
+    background-size: cover;
+    font-family: 'Voltaire', sans-serif;
+    font-weight: bold ;
+    
+    color: rgb(58, 4, 145);
+}
+.registerTitle{
+    font-size: 50px;
+    
+
+
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm>label{
+    margin:10px 0;
+
+    
+}
+.registerInput{
+    padding: 10px;
+    cursor: pointer;
+    
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    /* background-color: rgb(230, 217, 255); */
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(58, 4, 145);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+    font-family: 'Voltaire', sans-serif;
+    font-weight: 500 ;
+    font-size: 22px;
+}
+.registerLoginButton{
+    position:absolute;
+    top:60px;
+    right: 20px;
+    background-color: rgb(4, 160, 82);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Voltaire', sans-serif;
+    font-weight: 500 ;
+    font-size: 22px;
+}

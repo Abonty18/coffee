@@ -1,0 +1,74 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.199),
+    rgba(255, 255, 255, 0.199)),
+         url('/images/login2.svg') ;
+    background-size: cover;
+    font-family: 'Voltaire', sans-serif;
+font-weight: bold ;
+color: rgb(4, 160, 82);
+
+}
+.loginTitle{
+    font-size: 50px;
+
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label{
+    margin:10px 0;
+}
+.loginInput{
+    padding: 10px;
+    cursor: pointer;
+    /* background-color: rgb(4, 160, 82); */
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(4, 160, 82);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Voltaire', sans-serif;
+    font-weight: 500 ;
+    font-size: 22px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(4, 160, 82);
+  }
+.loginRegisterButton{
+    position:absolute;
+    top:60px;
+    right: 20px;
+    background-color: rgb(150, 87, 252);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Voltaire', sans-serif;
+    font-weight: 500 ;
+    font-size: 22px;
+}
