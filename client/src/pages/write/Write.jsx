@@ -5,6 +5,7 @@ import { Context } from "../../context/Context";
 
 export default function Write() {
   const [title, setTitle] = useState("");
+  const [cat, setCat] = useState("");
   const [desc, setDesc] = useState("");
   const [file, setFile] = useState(null);
   const { user } = useContext(Context);
@@ -13,7 +14,9 @@ export default function Write() {
     e.preventDefault();
     const newPost = {
       username: user.username,
+      
       title,
+      cat,
       desc,
     };
     if (file) {
@@ -47,12 +50,20 @@ export default function Write() {
             style={{ display: "none" }}
             onChange={(e) => setFile(e.target.files[0])}
           />
+       
           <input
             type="text"
             placeholder="Title"
             className="writeInput"
             autoFocus={true}
             onChange={e=>setTitle(e.target.value)}
+          />
+            <input
+            type="text"
+            placeholder="cat"
+            className="writeInput"
+            autoFocus={true}
+            onChange={e=>setCat(e.target.cats[0])}
           />
         </div>
         <div className="writeFormGroup">

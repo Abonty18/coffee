@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from '../../components/header/Header'
 import Posts from '../../components/posts/Posts'
-import Leftsidebar from '../../components/sidebar/Leftsidebar'
+
 import Sidebar from '../../components/sidebar/Sidebar'
 import './home.css'
 import axios from "axios";
@@ -23,7 +23,7 @@ export default function Home() {
         <>
         <Header/>
         <div className='home'>
-        <Leftsidebar/>
+        
         <Posts posts={posts} />
         <Sidebar/>
         

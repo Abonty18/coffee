@@ -47,13 +47,12 @@
    
 }
 
-/* .sidebarListItem{
-
-   font-size: 10px;
-   font-family: cursive;
+.sidebarListItem {
+   display: inline-block;
+   width: 50%;
+   margin-top: 15px;
    cursor: pointer;
-   
-} */
+ }
 
 .sidebarIcon
 
